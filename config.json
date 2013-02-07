@@ -1,0 +1,11 @@
+{
+	"host_map": [
+		"$.flixster.com => www.flixster.com",
+		"$.flixster.com => flixster.com",
+		"$.content7.flixster.com => content7.flixster.com",
+		"$.content8.flixster.com => content8.flixster.com",
+		"$.content6.flixster.com => content6.flixster.com",
+		"$.content9.flixster.com => content9.flixster.com"
+	],
+	"user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.25 (KHTML, like Gecko) Version/6.0 Safari/536.25"
+}
