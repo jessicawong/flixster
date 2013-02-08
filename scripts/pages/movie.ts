@@ -28,6 +28,9 @@ $("/html/body") {
 	#moving videos up
 	$("//div[contains(@class, 'unit') and contains(@class, 'size3of10')]/div[contains(@class,'box')][2]") {
 		add_class("videos")
+		$$("h3") {
+			remove()
+		}
 	}
 	$$(".videos") {
 		move_to("//div[contains(@class,'size7of10')]", "before")

@@ -1,20 +1,24 @@
 #mwMovie {
 	.content {
-		width: 100%;
-		height:100%;
+		width: 95%;
+		height:95%;
 	}
 	.videos {
 		text-align: center;
+		padding-bottom: 0;
 		ul .videoBlock {
 			text-align: center;
 			display:inline-block;
 			width: 14%;
-			margin: 0 1% 0 1%;
-
+			margin: 1%;
+			vertical-align: middle;
 			a .videolink {
 				positon: relative;
 				display: inline-block;
 			}			
 		}
+	}
+	.title {
+		margin: 3%;
 	}
 }
