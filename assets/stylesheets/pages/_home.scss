@@ -1,5 +1,110 @@
 // Every page should have a class on the body
 // Scope that in each file at the start
 ._home {
+	background:transparent url('../../images/office.png') scroll repeat;
+
+	a:hover{
+		text-decoration: none;
+	}
+
+	.main{
+		background:none;
+		position: relative;
+		margin-top: 150px;
+
+		.content{
+			width: 75%;
+		}	
+	}
+
+  header{
+  	font-size: 15px;
+  	
+  	background: rgb(119,119,119); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(119,119,119,1) 0%, rgba(63,63,63,1) 37%, rgba(58,58,58,1) 42%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(119,119,119,1)), color-stop(37%,rgba(63,63,63,1)), color-stop(42%,rgba(58,58,58,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(119,119,119,1) 0%,rgba(63,63,63,1) 37%,rgba(58,58,58,1) 42%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(119,119,119,1) 0%,rgba(63,63,63,1) 37%,rgba(58,58,58,1) 42%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(119,119,119,1) 0%,rgba(63,63,63,1) 37%,rgba(58,58,58,1) 42%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(119,119,119,1) 0%,rgba(63,63,63,1) 37%,rgba(58,58,58,1) 42%); /* W3C */
+  }
   
+  #carousel-container{
+  	width: 100%;
+  	/*height: 600px;*/
+  }
+
+  #carousel-wrapper{
+  	float: left;
+  	width: 5000px!important;
+  }
+
+  .pintContainer{
+  	width: 310px;
+  	margin: 25px;
+  	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+
+
+  }
+
+  .pintPoster{
+  	width: 270px;
+  	margin: 15px auto;
+  }
+
+
+  .box{
+  	border: 1px solid #FFF;
+
+
+  	-webkit-box-shadow: 1px 0px 22px rgba(255, 227, 255, 0.5);
+	-moz-box-shadow:    1px 0px 22px rgba(255, 227, 255, 0.5);
+	box-shadow:         1px 0px 22px rgba(255, 227, 255, 0.5);
+
+  	background: rgb(132,132,132); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(132,132,132,1) 0%, rgba(91,91,91,1) 1%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(132,132,132,1)), color-stop(1%,rgba(91,91,91,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(132,132,132,1) 0%,rgba(91,91,91,1) 1%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(132,132,132,1) 0%,rgba(91,91,91,1) 1%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(132,132,132,1) 0%,rgba(91,91,91,1) 1%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(132,132,132,1) 0%,rgba(91,91,91,1) 1%,rgba(0,0,0,1) 100%); /* W3C */
+  }
+
+  .mas.movieTitle {
+	font-size: 40px;
+	margin: 25px 10px !important;
+	color: #FF5C00;
+	line-height: 1em;
+	}
+
+  #prev{
+  	position: absolute;
+  	top: 140px;
+	left: -150px;
+	width: 139px;
+	height: 325px;
+	cursor: pointer;
+  }
+
+  #next{
+  	position: absolute;
+  	top: 140px;
+	left: 1245px;
+	width: 139px;
+	height: 325px;
+	cursor: pointer;
+  }
+
+  p.tomatometer{
+  	font-size: 45px;
+	color: #969696;
+  }
+  
+  i.icon{
+  	margin-right: 15px;
+  }
+
 }
