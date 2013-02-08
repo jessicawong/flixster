@@ -27,6 +27,10 @@
 	background: -o-linear-gradient(top,  rgba(119,119,119,1) 0%,rgba(63,63,63,1) 37%,rgba(58,58,58,1) 42%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(119,119,119,1) 0%,rgba(63,63,63,1) 37%,rgba(58,58,58,1) 42%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(119,119,119,1) 0%,rgba(63,63,63,1) 37%,rgba(58,58,58,1) 42%); /* W3C */
+
+	.content{
+		width: 95%;
+	}
   }
   
   #carousel-container{

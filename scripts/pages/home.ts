@@ -12,6 +12,10 @@ $$("#container"){
 	remove()
 }
 
+$("//header"){
+	move_to("../../..",position("top"))
+}
+
 $("//div[contains(@class,'unit')]/div"){
 	attribute("data-ur-carousel-component","item")
 }
