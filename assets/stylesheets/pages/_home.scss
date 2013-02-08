@@ -11,15 +11,14 @@
 		background:none;
 		position: relative;
 		margin-top: 150px;
-
-		.content{
+	}
+	.content{
 			width: 75%;
 		}	
-	}
 
   header{
   	font-size: 15px;
-  	
+  	width:100%;
   	background: rgb(119,119,119); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(119,119,119,1) 0%, rgba(63,63,63,1) 37%, rgba(58,58,58,1) 42%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(119,119,119,1)), color-stop(37%,rgba(63,63,63,1)), color-stop(42%,rgba(58,58,58,1))); /* Chrome,Safari4+ */

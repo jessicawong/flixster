@@ -40,9 +40,6 @@ $("/html/body") {
 			$("//a[@class='videolink']//img") {
 				attribute("width", "100%")
 				attribute("height", "auto")
-				$("ancestor::this()") {
-					add_class("mw_testing");
-				}
 			}
 		}
 	}
@@ -50,5 +47,18 @@ $("/html/body") {
 	#moving title to top
 	$("//h1[@class='title']") {
 		move_to("//div[@class='main']", "top")
+	}
+	//*[@id="mwMovie"]/div[2]/div[2]/div[1]/div[2]/div/div/div/p[1]
+	$("//div[contains(@class,'movieBox')]") {
+		$("div[contains(@class, 'media')]") {
+			$("div[@class='bd']") {
+				$("ul") {
+					add_class("tomatoes")
+				}
+				$("p[1]") {
+					add_class("movieDes")
+				}
+			}
+		}
 	}
 }
