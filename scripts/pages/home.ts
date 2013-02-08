@@ -32,7 +32,7 @@ $("//div[contains(@class,'unit')]"){
 }
 
 $("//div[@class='line']"){
-		attributes(id:'carousel-container',data-ur-set:"carousel",data-ur-carousel-component:"view_container",data-ur-id: "homeCarousel",data-ur-infinite:"disabled")
+		attributes(id:'carousel-container',data-ur-set:"carousel",data-ur-carousel-component:"view_container",data-ur-id: "homeCarousel",data-ur-infinite:"disabled", data-ur-autoscroll: "enabled",data-ur-autoscroll-delay: "3500")
 	inner_wrap("div"){
 		attributes(id:"carousel-wrapper",data-ur-carousel-component:"scroll_container")
 	}
@@ -62,5 +62,6 @@ $$(".icon.tiny.fresh"){
 $$(".icon.tiny.rotten"){
 	attribute("class","icon huge rotten")
 } 
+
 
 }
