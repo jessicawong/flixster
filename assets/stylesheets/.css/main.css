@@ -1,0 +1,21 @@
+
+
+
+/* line 3, /Users/m115953/flixster/assets/stylesheets/pages/_movie.scss */
+#mwMovie .videos ul .videoBlock {
+  text-align: center;
+  display: inline-block; }
+  /* line 7, /Users/m115953/flixster/assets/stylesheets/pages/_movie.scss */
+  #mwMovie .videos ul .videoBlock a .videolink {
+    positon: relative;
+    display: inline-block; }
+    /* line 11, /Users/m115953/flixster/assets/stylesheets/pages/_movie.scss */
+    #mwMovie .videos ul .videoBlock a .videolink img {
+      width: 30%;
+      height: auto; }
+
+/* line 18, /Users/m115953/flixster/assets/stylesheets/main.scss */
+.mtv-hover {
+  -webkit-box-shadow: 0 0 8px 3px #1CC2EC, inset 0 0 3px 4px #070707;
+  -moz-box-shadow: 0 0 8px 3px #1CC2EC, inset 0 0 3px 4px #070707;
+  box-shadow: 0 0 8px 3px #1CC2EC, inset 0 0 3px 4px #070707; }

@@ -1,0 +1,18 @@
+#mwMovie {
+	.videos {
+		ul .videoBlock {
+			text-align: center;
+			display:inline-block;
+			
+			a .videolink {
+				positon: relative;
+				display: inline-block;
+
+				img {
+					width: 30%;
+					height: auto;
+				}
+			}			
+		}
+	}
+}
