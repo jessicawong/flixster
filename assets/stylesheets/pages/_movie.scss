@@ -32,7 +32,6 @@
 	}
 	.content {
 			width: 95% !important;
-			height:95%;
 		}
 	.videos {
 		text-align: center;
@@ -65,7 +64,11 @@
 	.movieDes {
 		font-size: 2em;
 		line-height: 1.5em;
-		color: rgb(150, 150, 150);
+		color: #BBBBBB;
+		a {
+			text-transform:lowercase !important;
+			color: #FF5C00;
+		}
 	}
 
 	.big {
@@ -73,4 +76,18 @@
 		line-height: 1.5em;
 		//color: #FF5C00;
 	}
+	.medium {
+		font-size: 1.5em;
+	}
+	.stdef {
+		margin:10px;
+		color: #BBBBBB;
+	}
+	a {
+		color: #BBBBBB;
+	}
+	.desCredits {
+		font-size: 1.5em;
+	}
+	
 }
