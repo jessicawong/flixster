@@ -35,9 +35,17 @@ $("/html/body") {
 		$$("li") {
 			attribute("class", "videoBlock")
 			$("//a[@class='videolink']//img") {
-				attribute("width", "")
-				attribute("height", "")
+				attribute("width", "100%")
+				attribute("height", "auto")
+				$("ancestor::this()") {
+					add_class("mw_testing");
+				}
 			}
 		}
+	}
+
+	#moving title to top
+	$("//h1[@class='title']") {
+		move_to("//div[@class='main']", "top")
 	}
 }
